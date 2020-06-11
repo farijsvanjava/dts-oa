@@ -1,0 +1,39 @@
+header {
+    background-color: #445566;
+    font-family: "Fira Code Retina", Consolas, monospace;
+}
+
+header a {
+    font-family: Arial;
+}
+
+.header-logo {
+    font-size: 38px;
+    float: left;
+    padding: 10px 20px;
+}
+
+.header-menu {
+    font-size: 14px;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-item {
+    float: left;
+    padding: 20px 20px;
+}
+
+main {
+    float: right;
+}
+
+h1 {
+    background-color: #da0;
+}
+
+p {
+    color: #00a;
+}
