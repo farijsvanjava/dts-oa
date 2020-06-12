@@ -1,16 +1,25 @@
 header {
-    background-color: #445566;
+    background-color: red;
     font-family: "Fira Code Retina", Consolas, monospace;
 }
 
-header a {
-    font-family: Arial;
+header a:link, a:visited {
+    background-color: hotpink;
+    color: white;
+    padding: 16px 24px;
+    font-family: Georgia, serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover, a:active {
+    background-color: red;
 }
 
 .header-logo {
     font-size: 38px;
     float: left;
-    padding: 10px 20px;
 }
 
 .header-menu {
@@ -27,7 +36,7 @@ header a {
 }
 
 main {
-    float: right;
+    clear: left;
 }
 
 h1 {
